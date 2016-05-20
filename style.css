@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+    background-color: #f6f6f6;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', Arial, sans-serif;
+    color: #222;
+}
+
+p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #222;
+    line-height: 1.5em;
+}
+
+
+
+.jumbotron {
+    background-color: #C9D787;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+
+.time-scheme {
+    position: relative;
+    width: 100%;
+    margin: 40px 0;
+}
+.time-scheme-pole {
+    width: 10px;
+    height: 400px;
+    background-color: #C9D787;
+    margin: 0 auto;
+}
+.time-scheme-pole-section-begin,
+.time-scheme-pole-section-end {
+    width: 10px;
+    position: absolute;
+    margin-left: calc(50% - 5px);
+}
+.time-scheme-pole-section-begin {
+    top: 0;
+    height: 75px;
+    background-color: #dce6b3;
+}
+.time-scheme-pole-section-end {
+    top: 265px;
+    height: 135px;
+    background-color: #b1c653;
+}
+.time-scheme-text {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: -10px;
+}
+ul.time-scheme-times {
+    position: absolute;
+    top: -5px;
+    list-style-type: none;
+    padding: 0;
+    color: #aaa;
+    margin-left: calc(50% - 40px);
+    margin-top: 5px;
+}
+ul.time-scheme-times > li {
+    margin: 0 0 50px;
+    font-size: 0px;
+}
+ul.time-scheme-times > li > p {
+    font-size: 10px;
+}
