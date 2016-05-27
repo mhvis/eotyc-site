@@ -6,10 +6,12 @@
   color: #f08080;
 }
 .accent {
-  background-color: #21b09f !important;
+  /*background-color: #21b09f !important;*/
+  background-color: #f08080 !important;
 }
 .accent-text, a {
-  color: #21b09f;
+  /*color: #21b09f;*/
+  color: #f08080;
 }
 .secondary-text {
   color: rgba(0,0,0,0.71);
