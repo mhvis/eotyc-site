@@ -1,3 +1,4 @@
+/* color */
 .primary {
   background-color: #f08080 !important;
 }
@@ -10,6 +11,20 @@
 .accent-text, a {
   color: #21b09f;
 }
+.secondary-text {
+  color: rgba(0,0,0,0.71);
+}
+
 footer.page-footer {
   margin-top: 0;
+}
+
+/* schedule */
+table.schedule tr, table.schedule td {
+  padding: 0;
+}
+
+/* avatar/circle */
+.collection .collection-item.avatar {
+  min-height: 62px;
 }
