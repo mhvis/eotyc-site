@@ -1,4 +1,6 @@
-/* color */
+/**
+ * Color settings.
+ */
 .primary {
   background-color: #f08080 !important;
 }
@@ -17,16 +19,30 @@
   color: rgba(0,0,0,0.71);
 }
 
+/**
+ * Miscellaneous.
+ */
 footer.page-footer {
   margin-top: 0;
 }
 
-/* schedule */
+/**
+ * Schedule table.
+ */
 table.schedule tr, table.schedule td {
   padding: 0;
 }
 
-/* avatar/circle */
+/**
+ * Collection with icons height.
+ */
 .collection .collection-item.avatar {
   min-height: 62px;
+}
+
+/**
+ * Parallax height.
+ */
+.parallax-container {
+  height: 300px;
 }
